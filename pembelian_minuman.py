@@ -56,7 +56,7 @@ def function_perintah():
         messagebox.showerror("Error","Belum memilih minuman")
         return
     if psn.get() == '...':
-        messagebox.showerror("Error","Belum memilih beli berapa")
+        messagebox.showerror("Error","Belum mengisi jumlah yang dibeli")
         return
     pesan = "Halo " + perkenalan + stringnama.get() + " \nMembeli " + psn.get() + " minuman \nTerima kasih sudah datang"
     messagebox.showinfo("TOKO MINUMAN", pesan)
