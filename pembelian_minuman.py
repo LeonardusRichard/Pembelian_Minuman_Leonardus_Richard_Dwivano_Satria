@@ -51,10 +51,10 @@ def function_perintah():
     perkenalan=""
     if len(stringnama.get()) == 0:
         messagebox.showerror("Error","Belum mengisi nama")
-
+        return
     if radio.get()== 0:
         messagebox.showerror("Error","Belum memilih minuman")
-
+        return
     if psn.get() == '...':
         messagebox.showerror("Error","Belum memilih beli berapa")
         return
