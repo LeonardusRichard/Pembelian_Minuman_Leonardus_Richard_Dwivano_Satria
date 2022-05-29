@@ -31,8 +31,8 @@ class minuman:
     R3 = Radiobutton(top, text="Sprit                Rp. 10.200",font = ("Helvetica",15), variable=radio, value=3).place(x=150, y=180)  
     R4 = Radiobutton(top, text="Aqua               Rp. 5.000",font = ("Helvetica",15), variable=radio, value=4).place(x=150, y=210)  
     R5 = Radiobutton(top, text="Le Mineral       Rp. 6.000",font = ("Helvetica",15), variable=radio, value=5).place(x=150, y=240)
-    R6 = Radiobutton(top, text="Teh botol         Rp. 8.000",font = ("Helvetica",15), variable=radio, value=5).place(x=150, y=270) 
-    R7 = Radiobutton(top, text="Fanta              Rp. 9.500",font = ("Helvetica",15), variable=radio, value=5).place(x=150, y=300) 
+    R6 = Radiobutton(top, text="Teh botol         Rp. 8.000",font = ("Helvetica",15), variable=radio, value=6).place(x=150, y=270) 
+    R7 = Radiobutton(top, text="Fanta              Rp. 9.500",font = ("Helvetica",15), variable=radio, value=7).place(x=150, y=300) 
     
     def setlabel(self, top):
         self.lbminum = top
